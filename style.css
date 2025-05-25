@@ -1,0 +1,183 @@
+body {
+  background-color: #1e1e1e;
+  color: #dddddd;
+  font-family: 'Outfit', sans-serif;
+  padding-top: 80px; /* Adjusted for fixed navbar height */
+  transition: padding-top 0.3s ease; /* Smooth transition for navbar toggle */
+}
+
+h1, h2, h3 {
+  color: #e0c97d;
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  position: fixed; /* Changed to fixed for consistent positioning */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Higher z-index to stay above content */
+  background-color: #030303;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar-collapse {
+  transition: max-height 0.3s ease; /* Smooth collapse animation */
+}
+
+.card {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  color: #eeeeee;
+  transition: 0.3s ease;
+  margin-bottom: 1.5rem; /* Added spacing between cards */
+}
+
+.card:hover {
+  border-color: #c7a960;
+  box-shadow: 0 10px 20px rgba(199, 169, 96, 0.2);
+}
+
+.btn-custom {
+  background-color: #c7a960;
+  color: #1e1e1e;
+  font-weight: 500;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+.btn-custom:hover {
+  background-color: #a68c5b;
+  color: white;
+}
+
+#luxSlider {
+  position: relative;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  border-left: 4px solid #c7a960;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.slider {
+  max-height: 80vh; /* Reduced height for better mobile fit */
+  object-fit: cover;
+  width: 100%;
+}
+
+.container a img {
+  width: 50px; /* Reduced size for mobile */
+  height: 50px;
+}
+
+.navbar-window {
+  background-color: #030303;
+}
+
+.hizmet-img {
+  height: 120px; /* Slightly smaller for mobile */
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Form responsiveness */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 60px; /* Smaller padding for mobile navbar */
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 0.7rem;
+    padding: 6px 10px;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .hizmet-img {
+    height: 100px;
+  }
+
+  .container a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Ensure content shifts down when navbar is open */
+  .navbar-expanded {
+    padding-top: 200px; /* Adjust based on navbar height when expanded */
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  form {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  #navbarNav{
+    background-color: #252525 !important; /* Örnek: Bootstrap mavisi */
+  }
+}

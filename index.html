@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pearl & White - Ana Sayfa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+    <img class="logo1" src="img/logo.png" alt="Pearl & White Logo"> Pearl & White
+    </a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+        <li class="nav-item"><a class="nav-link" href="hizmetler.html">Hizmetler</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+        <li class="nav-item"><a class="nav-link" href="sss.html">S.S.S.</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <!-- Carousel -->
+<div id="luxSlider" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slider1.jpg" class="d-block w-100 slider" alt="Slide 1">
+      <div class="carousel-caption d-block"> <!-- Changed from d-none d-md-block -->
+        <h5>Gülümsemenin Yeni Tanımı</h5>
+        <p>Modern ve estetik diş çözümleriyle tanışın.</p>
+        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#randevuModal">Randevu Al</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider2.jpg" class="d-block w-100 slider" alt="Slide 2">
+      <div class="carousel-caption d-block"> <!-- Changed from d-none d-md-block -->
+        <h5>Uzman Kadro, Özel Hizmet</h5>
+        <p>Her hastaya özel ilgi ve ileri teknoloji.</p>
+        <a href="hakkimizda.html" class="btn btn-custom">Hakkımızda</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider3.jpg" class="d-block w-100 slider" alt="Slide 3">
+      <div class="carousel-caption d-block"> <!-- Changed from d-none d-md-block -->
+        <h5>Daha Beyaz Gülüşler</h5>
+        <p>Diş beyazlatma hizmetlerimizle tanışın.</p>
+        <a href="hizmetler.html" class="btn btn-custom">Hizmetler</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#luxSlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#luxSlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!-- Welcome Section -->
+  <section class="container my-5">
+    <div class="jumbotron bg-dark text-center p-5 rounded">
+      <h2 class="display-4">Sağlıklı Gülüşler İçin Buradayız</h2>
+      <p class="lead">Uzman diş hekimlerimiz ve modern ekipmanlarımızla size en iyi hizmeti sunuyoruz.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Hizmetlerimiz</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/implant.jpg" class="card-img-top" alt="Diş İmplantı">
+          <div class="card-body">
+            <h5 class="card-title">Diş İmplantı</h5>
+            <p class="card-text">Eksik dişleriniz için kalıcı çözümler sunuyoruz.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/beyazlatma.jpg" class=" card-img-top" alt="Diş Beyazlatma">
+          <div class="card-body">
+            <h5 class="card-title">Diş Beyazlatma</h5>
+            <p class="card-text">Daha beyaz ve sağlıklı bir gülüş için etkili tedaviler.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/ortodonti.jpg" class=" card-img-top" alt="Ortodonti">
+          <div class="card-body">
+            <h5 class="card-title ">Ortodonti</h5>
+            <p class="card-text">Diş teli tedavisi ile düzgün bir diş yapısı elde edin.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Randevu Modal -->
+  <div class="modal fade" id="randevuModal" tabindex="-1" aria-labelledby="randevuModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="randevuModalLabel">Randevu Al</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="adSoyad" class="form-label">Ad Soyad</label>
+              <input type="text" class="form-control" id="adSoyad" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefon" class="form-label">Telefon</label>
+              <input type="tel" class="form-control" id="telefon" required>
+            </div>
+
+<div class="mb-3">
+  <label for="tarih" class="form-label">Randevu Tarihi</label>
+  <input type="date" class="form-control" id="tarih" required>
+</div>
+
+<div class="mb-3">
+  <label for="doktor" class="form-label">Doktor Seçimi</label>
+  <select class="form-control" id="doktor" disabled required>
+    <option value="">Lütfen doktor seçin</option>
+    <option value="dr1">Dr. Ahmet Yılmaz</option>
+    <option value="dr2">Dr. Ayşe Demir</option>
+    <option value="dr3">Dr. Mehmet Can</option>
+  </select>
+</div>
+<div class="mb-3" id="musaitlik"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+          <button type="button" class="btn btn-custom">Gönder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-light py-4">
+    <div class="container">
+      <p>© 2025 Pearl & White Özel Diş Polikliniği</p>
+      <div class="mb-3">
+        <a href="https://instagram.com" class="text-light mx-2"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://linkedin.com" class="text-light mx-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <div>
+        <a href="index.html" class="text-light mx-2">Ana Sayfa</a> |
+        <a href="hakkimizda.html" class="text-light mx-2">Hakkımızda</a> |
+        <a href="hizmetler.html" class="text-light mx-2">Hizmetler</a> |
+        <a href="galeri.html" class="text-light mx-2">Galeri</a> |
+        <a href="iletisim.html" class="text-light mx-2">İletişim</a> |
+        <a href="sss.html" class="text-light mx-2">S.S.S.</a>
+      </div>
+    </div>
+  </footer>
+  
+<script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
