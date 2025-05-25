@@ -31,7 +31,8 @@
 | `sss.html`        | Accordion yapısı ile sıkça sorulan sorular        |
 
 ## 5. Ekran Görüntüleri
- ![Ana Sayfa][Ekran görüntüsü 2025-05-25 205340](https://github.com/user-attachments/assets/f00cd817-b426-4442-8f84-1ce121121f7b)
+ ![Ana Sayfa]![Ekran görüntüsü 2025-05-25 205340](https://github.com/user-attachments/assets/49b57b34-1dac-4f85-9fbd-65663764ad2b)
+
  
 ![Galeri]![Ekran görüntüsü 2025-05-25 205458](https://github.com/user-attachments/assets/5d11746a-03a8-4330-a6df-c215a01e22e2) 
 
