@@ -33,8 +33,8 @@
 ## 5. Ekran Görüntüleri (İsteğe Bağlı)
 
 > Örnek:
-> ![Ana Sayfa]((https://github.com/user-attachments/assets/df471cd3-332b-47e3-8390-218d34ec729d))  
-> ![Galeri]((https://github.com/user-attachments/assets/677ca061-8d52-4236-baea-419e3cb2e19b)
+> ![Ana Sayfa](![Ekran görüntüsü 2025-05-25 205340](https://github.com/user-attachments/assets/f00cd817-b426-4442-8f84-1ce121121f7b))  
+> ![Galeri]![Ekran görüntüsü 2025-05-25 205458](https://github.com/user-attachments/assets/5d11746a-03a8-4330-a6df-c215a01e22e2)()
 )  
 
 ## 6. Kurulum / Kullanım Talimatları
@@ -45,3 +45,5 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
 git clone https://github.com/kullaniciadi/dis-poliklinigi-websitesi.git
 cd dis-poliklinigi-websitesi
 ```
+
+
