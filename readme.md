@@ -33,9 +33,9 @@
 ## 5. Ekran Görüntüleri (İsteğe Bağlı)
 
 > Örnek:
-> ![Ana Sayfa](screenshots/anasayfa.png)  
-> ![Galeri](screenshots/galeri.png)  
-> _(Görseller "screenshots" klasörüne eklenmelidir.)_
+> ![Ana Sayfa]((https://github.com/user-attachments/assets/df471cd3-332b-47e3-8390-218d34ec729d))  
+> ![Galeri]((https://github.com/user-attachments/assets/677ca061-8d52-4236-baea-419e3cb2e19b)
+)  
 
 ## 6. Kurulum / Kullanım Talimatları
 
